@@ -11,7 +11,7 @@ ifneq ($(BUILD_TINY_ANDROID),true)
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-AMSS_VERSION:=$(BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION)
+AMSS_VERSION:=1240
 RPC_INC:=inc-$(AMSS_VERSION)
 
 generated_files:= \
